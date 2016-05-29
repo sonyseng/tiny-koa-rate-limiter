@@ -5,7 +5,7 @@ This is a tiny middleware library for koa 1.x applications to limit ANY requests
 
 ```js
 const app = require('koa')();
-const limiter = require('./middleware/limiter');
+const limiter = require('tiny-koa-rate-limiter');
 
 app.use(function *errorHandler (next) {
     try {

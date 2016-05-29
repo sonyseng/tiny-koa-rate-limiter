@@ -1,0 +1,22 @@
+{
+  "name": "tiny-koa-rate-limiter",
+  "version": "0.1.0",
+  "description": "A very small IP based request rate limiter for Koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./jasmine.js"
+  },
+  "keywords": [
+    "koa",
+    "rate-limiter",
+    "rate-limit",
+    "rate",
+    "limiter"
+  ],
+  "author": "Sony Seng",
+  "license": "MIT",
+  "devDependencies": {
+    "jasmine": "^2.4.1",
+    "jasmine-spec-reporter": "^2.4.0"
+  }
+}

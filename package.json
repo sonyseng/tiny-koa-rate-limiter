@@ -1,19 +1,29 @@
 {
   "name": "tiny-koa-rate-limiter",
-  "version": "0.1.0",
-  "description": "A very small IP based request rate limiter for Koa",
-  "main": "index.js",
+  "version": "0.1.1",
+  "description": "A very small ip based request rate limiter for Koa 1.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonyseng/tiny-koa-rate-limiter.git"
+  },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "node ./jasmine.js"
   },
   "keywords": [
     "koa",
+    "middleware",
     "rate-limiter",
     "rate-limit",
     "rate",
     "limiter"
   ],
   "author": "Sony Seng",
+  "engines": {
+    "node": "> 0.12"
+  },
   "license": "MIT",
   "devDependencies": {
     "jasmine": "^2.4.1",

@@ -18,7 +18,7 @@ app.use(function *errorHandler (next) {
 
 // Allow 100 requests from the same IP address for every hour.
 // An exception will be thrown setting HTTP Status to 429
-app.use(limiter({maxRequests: 100, interval: 60*60**1000}));
+app.use(limiter({maxRequests: 100, interval: 60*60*1000}));
 
 app.listen(process.env.PORT);
 ```
